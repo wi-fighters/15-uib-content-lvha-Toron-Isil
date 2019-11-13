@@ -20,9 +20,43 @@ button {
 
 
 /* Task 1 */
+a:link {
+  color: midnightblue;
+}
+
+a:visited {
+  color: darkslateblue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: darkgreen;
+}
 
 /* Task 2 */
+button:hover {
+  background-color: yellowgreen;
+}
+
+button:active {
+  color: darkgreen;
+  font-weight: bold;
+}
 
 /* Task 3 */
+p::first-letter{
+  color: darkslateblue;
+  font-weight: bold;
+  font-size: 150%;
+  vertical-align: sub;
+  padding-right: 2px;
+}
 
 /* Task 4 */
+h2+p::first-line {    /* h2>p::first-line - don't work   */
+  color: rgb(100, 100, 100);
+  font-style: italic;
+}
